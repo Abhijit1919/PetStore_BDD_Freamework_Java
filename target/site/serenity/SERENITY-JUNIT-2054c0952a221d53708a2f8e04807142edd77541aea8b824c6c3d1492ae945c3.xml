@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="3" name="User - Operations about users - Login &amp; Logout" skipped="0" tests="4" time="12.08" timestamp="2023-05-29 02:08:11"><testcase name="As a End User, A Unauthorized user can not login to the application using API"><failure message="Invalid user credentials allowed expected:&lt;401&gt; but was:&lt;200&gt;" type="java.lang.AssertionError">Invalid user credentials allowed expected:&lt;401&gt; but was:&lt;200&gt;</failure><system-err>Invalid user credentials allowed expected:&lt;401&gt; but was:&lt;200&gt;&#13;
+com.test.feature.steps.genric.LoginAPISteps.verifyLoginFailure(LoginAPISteps.java:51)&#13;
+com.test.feature.steps.stepsDefination.LoginStepDef.login_failed(LoginStepDef.java:62)&#13;
+✽.login failed(file:///C:/00_Shreya%20Docs/AutomationProjects/BBDFreamWorkFroPetStore/src/test/resources/feature/Users/Login/Pet/feature/Login/Login.feature:8)&#13;
+</system-err></testcase><testcase name="As a End User, A Valid user with wrong password can not login to the application using API"><failure message="Invalid user credentials allowed expected:&lt;401&gt; but was:&lt;200&gt;" type="java.lang.AssertionError">Invalid user credentials allowed expected:&lt;401&gt; but was:&lt;200&gt;</failure><system-err>Invalid user credentials allowed expected:&lt;401&gt; but was:&lt;200&gt;&#13;
+com.test.feature.steps.genric.LoginAPISteps.verifyLoginFailure(LoginAPISteps.java:51)&#13;
+com.test.feature.steps.stepsDefination.LoginStepDef.login_failed(LoginStepDef.java:62)&#13;
+✽.login failed(file:///C:/00_Shreya%20Docs/AutomationProjects/BBDFreamWorkFroPetStore/src/test/resources/feature/Users/Login/Pet/feature/Login/Login.feature:17)&#13;
+</system-err></testcase><testcase name="As a End User, A Unauthorized user with valid password can not login to the application using API"><failure message="Invalid user credentials allowed expected:&lt;401&gt; but was:&lt;200&gt;" type="java.lang.AssertionError">Invalid user credentials allowed expected:&lt;401&gt; but was:&lt;200&gt;</failure><system-err>Invalid user credentials allowed expected:&lt;401&gt; but was:&lt;200&gt;&#13;
+com.test.feature.steps.genric.LoginAPISteps.verifyLoginFailure(LoginAPISteps.java:51)&#13;
+com.test.feature.steps.stepsDefination.LoginStepDef.login_failed(LoginStepDef.java:62)&#13;
+✽.login failed(file:///C:/00_Shreya%20Docs/AutomationProjects/BBDFreamWorkFroPetStore/src/test/resources/feature/Users/Login/Pet/feature/Login/Login.feature:26)&#13;
+</system-err></testcase><testcase name="As a End User, A Valid user can login and logout to the application using API"/></testsuite>
